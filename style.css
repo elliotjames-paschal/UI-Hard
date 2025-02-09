@@ -52,7 +52,7 @@ header h1 {
   border: 2px solid var(--white);
   background: transparent;
   color: var(--white);
-  padding: 6px 12px;   /* Reduced padding to shrink the button */
+  padding: 3px 6px;   /* Reduced padding to shrink the button */
   border-radius: 5px;
   font-size: 0.9rem;   /* Smaller font size */
   cursor: pointer;
