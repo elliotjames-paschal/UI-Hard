@@ -126,3 +126,28 @@ section button:hover {
   text-align: center;
 }
 
+/* Existing styles … */
+
+/* Extra Header Buttons Styling */
+.header-extra {
+  display: flex;
+  align-items: center;
+  margin-left: 15px; /* Adds a little space between the company name and the extra buttons */
+}
+
+.header-extra button {
+  border: none;
+  background: transparent;
+  color: #A8DADC;           /* Light blue color */
+  font-size: 0.8rem;        /* Slightly smaller font size */
+  padding: 4px 8px;         /* Reduced padding for a more compact look */
+  margin-left: 10px;        /* Space between the two buttons */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.header-extra button:hover {
+  color: var(--accent-color); /* Change to your accent color on hover (or pick another shade) */
+}
+
+
