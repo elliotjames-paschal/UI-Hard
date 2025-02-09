@@ -35,7 +35,7 @@ header h1 {
 
 /* Adjust logo size */
 .logo {
-  width: 20px;        /* Smaller logo width */
+  width: 15px;        /* Smaller logo width */
   height: auto;
   margin-right: 10px; /* Space between logo and text */
 }
@@ -44,6 +44,7 @@ header h1 {
 .header-left {
   display: flex;
   align-items: center;
+  margin-left: 15px;
 }
 
 .logo {
@@ -132,7 +133,7 @@ section button:hover {
 .header-extra {
   display: flex;
   align-items: center;
-  margin-left: 5px; /* Adds a little space between the company name and the extra buttons */
+  margin-left: 15px; /* Adds a little space between the company name and the extra buttons */
 }
 
 .header-extra button {
