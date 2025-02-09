@@ -57,12 +57,14 @@ header h1 {
   border: 2px solid var(--white);
   background: transparent;
   color: var(--white);
-  padding: 8px 16px;
+  padding: 6px 12px;   /* Reduced padding to shrink the button */
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 0.9rem;   /* Smaller font size */
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
+  margin-right: 15px;  /* Adjust this value to move it left */
 }
+
 
 .header-right button:hover {
   background: var(--white);
