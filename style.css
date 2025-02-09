@@ -23,8 +23,21 @@ header {
   align-items: center;
   background: var(--primary-color);
   color: var(--white);
-  padding: 1px 2px;
+  padding: 5px 10px;  /* Adjust padding as needed */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Reduce the heading size */
+header h1 {
+  font-size: 1.2rem;  /* Smaller font size */
+  margin: 0;          /* Remove default margins */
+}
+
+/* Adjust logo size */
+.logo {
+  width: 30px;        /* Smaller logo width */
+  height: auto;
+  margin-right: 10px; /* Space between logo and text */
 }
 
 /* Header Left: Logo and Company Name */
