@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stablecoin Mint/Burn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Stablecoin Interface</h1>
+        <button id="connectWallet">Connect Wallet</button>
+    </header>
+    <main>
+        <section id="mintSection">
+            <h2>Mint Stablecoin</h2>
+            <input type="number" id="mintAmount" placeholder="Amount">
+            <button id="mintBtn">Mint</button>
+        </section>
+        <section id="burnSection">
+            <h2>Burn Stablecoin</h2>
+            <input type="number" id="burnAmount" placeholder="Amount">
+            <button id="burnBtn">Burn</button>
+        </section>
+        <div id="notification"></div>
+    </main>
+    <!-- Optionally include ethers.js from a CDN if not bundling -->
+    <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
