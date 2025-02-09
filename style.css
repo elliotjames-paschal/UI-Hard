@@ -139,7 +139,7 @@ section button:hover {
   border: none;
   background: transparent;
   color: #A8DADC;           /* Light blue color */
-  font-size: 0.8rem;        /* Slightly smaller font size */
+  font-size: 1rem;        /* Slightly smaller font size */
   padding: 4px 8px;         /* Reduced padding for a more compact look */
   margin-left: 10px;        /* Space between the two buttons */
   cursor: pointer;
