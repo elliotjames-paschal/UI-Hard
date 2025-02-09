@@ -30,7 +30,7 @@ header {
 /* Reduce the heading size */
 header h1 {
   font-size: 1.2rem;  /* Smaller font size */
-  margin: 0;          /* Remove default margins */
+  margin: 3;          /* Remove default margins */
 }
 
 /* Adjust logo size */
