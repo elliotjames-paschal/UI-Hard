@@ -35,7 +35,7 @@ header h1 {
 
 /* Adjust logo size */
 .logo {
-  width: 20px;        /* Smaller logo width */
+  width: 30px;        /* Smaller logo width */
   height: auto;
   margin-right: 10px; /* Space between logo and text */
 }
