@@ -72,7 +72,14 @@ main {
   display: flex;
   gap: 20px;
   padding: 20px;
+  /* Ensure main takes the full available height minus the header */
+  min-height: calc(100vh - 60px); /* Adjust 60px if your header height differs */
+  
+  /* Center the content vertically and horizontally */
+  justify-content: center;
+  align-items: center;
 }
+
 
 /* Section Styling for Mint/Burn */
 section {
