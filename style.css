@@ -138,7 +138,7 @@ section button:hover {
 .header-extra button {
   border: none;
   background: transparent;
-  color: #e8f4f8;           /* Light blue color */
+  color: #d4ebf2;           /* Light blue color */
   font-size: 1rem;        /* Slightly smaller font size */
   padding: 2px 8px;         /* Reduced padding for a more compact look */
   margin-left: 5px;        /* Space between the two buttons */
