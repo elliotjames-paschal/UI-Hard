@@ -49,17 +49,6 @@ header h1 {
   margin-left: 15px;
 }
 
-/* Header Right: Connect Wallet Button */
-.header-right button {
-  background: var(--new);
-  color: var(--primary-color);
-  padding: 5px 10px;   /* Reduced padding to shrink the button */
-  border-radius: 999px;  /* High value to create a pill shape */
-  font-size: 1rem;   /* Smaller font size */
-  font-weight: bold; /* Make font bold */
-  cursor: pointer;
-  margin-right: 20px;  /* Adjust this value to move it left */
-}
 
 .header-right button::after {
   content: "";
