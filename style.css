@@ -22,7 +22,7 @@ body {
 /* Header Styling */
 header {
   display: flex;
-  bottom-border: 1px var(--shadow);
+  bottom-border: 1px var(--primary-color);
   position: sticky; 
   font-family: 'Inter', sans-serif;
   justify-content: space-between;
