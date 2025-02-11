@@ -42,6 +42,13 @@ header h1 {
   margin-right: 25px; /* Space between logo and text */
 }
 
+.logo:hover {
+  width: 30px;        /* Smaller logo width */
+  height: auto;
+  margin-right: 25px; /* Space between logo and text */
+  color: var(--accent-color);
+}
+
 /* Header Left: Logo and Company Name */
 .header-left {
   display: flex;
