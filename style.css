@@ -12,7 +12,7 @@
 
 /* General Styles */
 body {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
   background: var(--background);
@@ -61,7 +61,6 @@ header h1 {
 /* Header Right: Connect Wallet Button */
 .header-right button {
   background: var(--new);
-  border-bottom: 3px solid var(--shadow); /* Remove abrupt border */
   color: var(--accent-color);
   padding: 6px 18px;   /* Reduced padding to shrink the button */
   border-radius: 999px;  /* High value to create a pill shape */
