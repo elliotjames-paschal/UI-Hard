@@ -51,19 +51,29 @@ header h1 {
 
 /* Header Right: Connect Wallet Button */
 .header-right button {
-  border: 2px solid var(--new);
+  border: .5px solid var(--new);
   border-bottom: 2px solid var(--accent-color);
   background: var(--new);
-  color: var(#0D3B66);
+  color: var(--primary-color);
   padding: 5px 10px;   /* Reduced padding to shrink the button */
   border-radius: 999px;  /* High value to create a pill shape */
   font-size: 1rem;   /* Smaller font size */
   font-weight: bold; /* Make font bold */
   cursor: pointer;
-  transition: background 0.3s, color 0.3s;
   margin-right: 20px;  /* Adjust this value to move it left */
 }
 
+.header-right button::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Slightly below the button */
+  left: 50%;
+  width: 80%; /* Adjust width for more/less taper */
+  height: 4px; /* Controls thickness of the effect */
+  background: linear-gradient(to right, transparent, #FF5733, transparent); /* Creates the tapering effect */
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
 
 
 .header-right button:hover {
