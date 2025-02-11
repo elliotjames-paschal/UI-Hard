@@ -32,6 +32,12 @@ header {
   padding: 5px 10px;  /* Adjust padding as needed */
 }
 
+header.scrolled {
+  padding: 10px 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow on scroll */
+}
+
+
 /* Reduce the heading size */
 header h1 {
   font-family: 'Verdana', sans-serif;
