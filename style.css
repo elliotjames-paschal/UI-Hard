@@ -163,7 +163,7 @@ section button:hover {
 }
 
 .header-extra button:hover {
-  color: var(--b-hover); /* Change to your accent color on hover (or pick another shade) */
+  color: #c0e2ec; /* Change to your accent color on hover (or pick another shade) */
 }
 
 
