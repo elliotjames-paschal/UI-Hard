@@ -36,7 +36,8 @@ header {
 header h1 {
   font-family: 'Inter', sans-serif;
   font-size: 1.1rem;  /* Smaller font size */
-  margin: 3;          /* Remove default margins */
+  margin: 3;   
+  font-weight: 800;/* Remove default margins */
 }
 
 /* Adjust logo size */
@@ -64,7 +65,7 @@ header h1 {
 
 /* Header Right: Connect Wallet Button */
 .header-right button {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: var(--accent-color);
   border: 2px var(--accent-color);
   color: var(--white);
