@@ -51,8 +51,6 @@ header h1 {
 
 /* Header Right: Connect Wallet Button */
 .header-right button {
-  border: .5px solid var(--new);
-  border-bottom: 2px solid var(--accent-color);
   background: var(--new);
   color: var(--primary-color);
   padding: 5px 10px;   /* Reduced padding to shrink the button */
@@ -70,9 +68,9 @@ header h1 {
   left: 50%;
   width: 80%; /* Adjust width for more/less taper */
   height: 4px; /* Controls thickness of the effect */
-  background: linear-gradient(to right, transparent, #FF5733, transparent); /* Creates the tapering effect */
+  background: linear-gradient(to right, transparent, var(--accent-color), transparent); /* Creates the tapering effect */
   border-radius: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-75%);
 }
 
 
