@@ -136,7 +136,7 @@ section button:hover {
 .header-extra {
   display: flex;
   align-items: center;
-  margin-left: 15px; /* Adds a little space between the company name and the extra buttons */
+  margin-left: 30px; /* Adds a little space between the company name and the extra buttons */
 }
 
 .header-extra button {
@@ -145,7 +145,7 @@ section button:hover {
   color: var(--new);           /* Light blue color */
   font-size: 1rem;        /* Slightly smaller font size */
   padding: 2px 8px;         /* Reduced padding for a more compact look */
-  margin-left: 5px;        /* Space between the two buttons */
+  margin-left: 25px;        /* Space between the two buttons */
   cursor: pointer;
   transition: color 0.3s;
 }
