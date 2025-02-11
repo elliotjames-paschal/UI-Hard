@@ -7,7 +7,7 @@
   --text-color:    #333333;
   --new:           #d4ebf2;
   --b-hover:       #c0e2ec:
-  --shadow:        #acd9e6:
+  --shadow:        #99d0e0:
 }
 
 /* General Styles */
@@ -63,6 +63,7 @@ header h1 {
 /* Header Left: Logo and Company Name */
 .header-left {
   font-family: 'Verdana', sans-serif;
+  color: var(--shadow); 
   display: flex;
   align-items: center;
   margin-left: 15px;
