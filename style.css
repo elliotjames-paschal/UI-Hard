@@ -145,7 +145,7 @@ section button:hover {
   color: var(--new);           /* Light blue color */
   font-size: 1rem;        /* Slightly smaller font size */
   padding: 2px 8px;         /* Reduced padding for a more compact look */
-  margin-left: 25px;        /* Space between the two buttons */
+  margin-left: 30px;        /* Space between the two buttons */
   cursor: pointer;
   transition: color 0.3s;
 }
