@@ -65,7 +65,7 @@ header h1 {
 
 /* Header Right: Connect Wallet Button */
 .header-right button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Verdana', sans-serif;
   background: var(--accent-color);
   border: 2px var(--accent-color);
   color: var(--white);
