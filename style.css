@@ -7,6 +7,7 @@
   --text-color:    #333333;
   --new:           #d4ebf2;
   --b-hover:       #c0e2ec:
+  --shadow:        #acd9e6:
 }
 
 /* General Styles */
@@ -60,8 +61,7 @@ header h1 {
 /* Header Right: Connect Wallet Button */
 .header-right button {
   background: var(--new);
-  border: 2.5px solid var(--new);
-  border-bottom: 3px solid #acd9e6); /* Remove abrupt border */
+  border-bottom: 3px solid var(--shadow); /* Remove abrupt border */
   color: var(--accent-color);
   padding: 6px 18px;   /* Reduced padding to shrink the button */
   border-radius: 999px;  /* High value to create a pill shape */
