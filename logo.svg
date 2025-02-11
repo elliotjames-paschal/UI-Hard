@@ -6,7 +6,7 @@
   viewBox="0 0 100 100">
   <!-- A simple, crisp white "N" logo -->
   <path d="M20 80 L20 20 L80 80 L80 20" 
-        stroke="white" 
+        stroke="#0D3B66" 
         stroke-width="8" 
         stroke-linecap="round" 
         fill="none"/>
