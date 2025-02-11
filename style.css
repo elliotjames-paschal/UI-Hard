@@ -103,6 +103,19 @@ main {
   align-items: center;
 }
 
+.upper-box {
+  position: absolute;
+  width: 450px;
+  height: 100px;
+  background: var(--white);
+  border: 0.5px solid var(--shadow);
+  text-align: center;
+  
+  top: calc(50% - 180px); /* Places it just above the center-box */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .center-box {
   position: absolute;
   border: .5px var(--shadow);
@@ -112,7 +125,7 @@ main {
   width: 450px; /* Adjust width as needed */
   height: 300px;
   padding: 20px;
-  background: var(--new); /* Use your theme color */
+  background: var(--white); /* Use your theme color */
   border-radius: 30px;
   text-align: center;
 }
