@@ -95,6 +95,7 @@ main {
 
 /* Section Styling for Mint/Burn */
 section {
+  color: var(--primary-color);
   background: var(--new);
   padding: 20px;
   border: 1px solid #ddd;
