@@ -76,8 +76,7 @@ header h1 {
 
 
 .header-right button:hover {
-  border: 2px solid var(--b-hover);
-  background: var(--b-hover);
+  background: #c0e2ec;
   color: var(--primary-color);
 }
 
