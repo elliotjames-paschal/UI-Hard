@@ -53,7 +53,8 @@ header h1 {
 /* Header Right: Connect Wallet Button */
 .header-right button {
   background: var(--new);
-  border-bottom: 2px solid transparent;
+  border: 2px solid var(--accent-color);
+  border-bottom: 4px solid transparent; /* Remove abrupt border */
   color: var(--primary-color);
   padding: 5px 10px;   /* Reduced padding to shrink the button */
   border-radius: 999px;  /* High value to create a pill shape */
