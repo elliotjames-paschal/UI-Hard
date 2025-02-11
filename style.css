@@ -12,7 +12,7 @@
 
 /* General Styles */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Verdana', sans-serif;
   margin: 0;
   padding: 0;
   background: var(--background);
@@ -34,7 +34,7 @@ header {
 
 /* Reduce the heading size */
 header h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-size: 1.1rem;  /* Smaller font size */
   margin: 3;   
   font-weight: 800;/* Remove default margins */
@@ -56,7 +56,7 @@ header h1 {
 
 /* Header Left: Logo and Company Name */
 .header-left {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Verdana', sans-serif;
   display: flex;
   align-items: center;
   margin-left: 15px;
