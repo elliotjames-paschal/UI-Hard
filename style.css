@@ -64,7 +64,7 @@ header h1 {
 
 
 .header-right button:hover {
-  background: #e0c049;
+  background: var(--accent-color);
   color: var(--primary-color);
 }
 
