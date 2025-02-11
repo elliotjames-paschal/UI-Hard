@@ -22,7 +22,7 @@ body {
 /* Header Styling */
 header {
   display: flex;
-  font-family: 'Inter', sans-serif !important;
+  font-family: 'Inter', sans-serif;
   justify-content: space-between;
   align-items: center;
   background: var(--new);
@@ -33,6 +33,7 @@ header {
 
 /* Reduce the heading size */
 header h1 {
+  font-family: 'Inter', sans-serif;
   font-size: 1.1rem;  /* Smaller font size */
   margin: 3;          /* Remove default margins */
 }
@@ -53,6 +54,7 @@ header h1 {
 
 /* Header Left: Logo and Company Name */
 .header-left {
+  font-family: 'Inter', sans-serif;
   display: flex;
   align-items: center;
   margin-left: 15px;
@@ -61,9 +63,10 @@ header h1 {
 
 /* Header Right: Connect Wallet Button */
 .header-right button {
-  background: var(--new);
-  border: 2px var(--new);
-  color: var(--accent-color);
+  font-family: 'Inter', sans-serif;
+  background: var(--accent-color);
+  border: 2px var(--accent-color);
+  color: var(--white);
   padding: 6px 18px;   /* Reduced padding to shrink the button */
   border-radius: 999px;  /* High value to create a pill shape */
   font-size: 1rem;   /* Smaller font size */
@@ -151,7 +154,7 @@ section button:hover {
 .header-extra button {
   border: none;
   background: transparent;
-  color: var(--new);           /* Light blue color */
+  color: var(--primary-color);           /* Light blue color */
   font-size: 1rem;        /* Slightly smaller font size */
   padding: 2px 8px;         /* Reduced padding for a more compact look */
   margin-left: 40px;        /* Space between the two buttons */
@@ -160,7 +163,7 @@ section button:hover {
 }
 
 .header-extra button:hover {
-  color: #c0e2ec; /* Change to your accent color on hover (or pick another shade) */
+  color: var(--b-hover); /* Change to your accent color on hover (or pick another shade) */
 }
 
 
