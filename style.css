@@ -54,9 +54,9 @@ header h1 {
 .header-right button {
   background: var(--new);
   border: .25px solid var(--new);
-  border-bottom: 2px solid transparent var(--accent-color); /* Remove abrupt border */
+  border-bottom: 2px solid var(--accent-color); /* Remove abrupt border */
   color: var(--primary-color);
-  padding: 5px 10px;   /* Reduced padding to shrink the button */
+  padding: 10px 20px;   /* Reduced padding to shrink the button */
   border-radius: 999px;  /* High value to create a pill shape */
   font-size: 1rem;   /* Smaller font size */
   font-weight: 800; /* Make font bold */
