@@ -94,7 +94,7 @@ main {
 }
 
 /* Section Styling for Mint/Burn */
-mint-burn-tab {
+mint-burn-tabs {
   color: var(--primary-color);
   background: var(--new);
   padding: 20px;
