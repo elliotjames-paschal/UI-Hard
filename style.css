@@ -41,6 +41,7 @@ header.scrolled {
 /* Reduce the heading size */
 header h1 {
   font-family: 'Verdana', sans-serif;
+  color: var(--shadow);
   font-size: 1.1rem;  /* Smaller font size */
   margin: 3;   
   font-weight: 800;/* Remove default margins */
