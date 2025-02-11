@@ -6,6 +6,7 @@
   --white:         #ffffff;
   --text-color:    #333333;
   --new:           #d4ebf2;
+  --b-hover:       #c0e2ec:
 }
 
 /* General Styles */
@@ -38,7 +39,7 @@ header h1 {
 .logo {
   width: 30px;        /* Smaller logo width */
   height: auto;
-  margin-right: 10px; /* Space between logo and text */
+  margin-right: 25px; /* Space between logo and text */
 }
 
 /* Header Left: Logo and Company Name */
@@ -65,7 +66,7 @@ header h1 {
 
 
 .header-right button:hover {
-  background: var(--accent-color);
+  background: var(--b-hover);
   color: var(--primary-color);
 }
 
@@ -146,13 +147,13 @@ section button:hover {
   color: var(--new);           /* Light blue color */
   font-size: 1rem;        /* Slightly smaller font size */
   padding: 2px 8px;         /* Reduced padding for a more compact look */
-  margin-left: 30px;        /* Space between the two buttons */
+  margin-left: 40px;        /* Space between the two buttons */
   cursor: pointer;
   transition: color 0.3s;
 }
 
 .header-extra button:hover {
-  color: var(--accent-color); /* Change to your accent color on hover (or pick another shade) */
+  color: var(--b-hover); /* Change to your accent color on hover (or pick another shade) */
 }
 
 
