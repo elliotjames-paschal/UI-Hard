@@ -60,9 +60,8 @@ header h1 {
 /* Header Right: Connect Wallet Button */
 .header-right button {
   background: var(--new);
-  
-  box-shadow: 0px 4px 8px -2px var(--accent-color); /* Adjust values for more taper */
-
+  border: .1px solid var(--new);
+  border-bottom: 1px solid #acd9e6); /* Remove abrupt border */
   color: var(--accent-color);
   padding: 6px 18px;   /* Reduced padding to shrink the button */
   border-radius: 999px;  /* High value to create a pill shape */
