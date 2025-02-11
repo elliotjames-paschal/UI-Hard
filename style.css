@@ -93,13 +93,12 @@ main {
   align-items: center;
 }
 
-
 /* Section Styling for Mint/Burn */
 section {
   background: var(--new);
   padding: 20px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 30px;
   flex: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
