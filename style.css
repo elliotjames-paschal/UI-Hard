@@ -22,6 +22,7 @@ body {
 /* Header Styling */
 header {
   display: flex;
+  bottom-border: .5px var(--shadow);
   position: sticky; 
   font-family: 'Inter', sans-serif;
   justify-content: space-between;
@@ -29,7 +30,6 @@ header {
   background: var(--new);
   color: var(--primary-color);
   padding: 5px 10px;  /* Adjust padding as needed */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Reduce the heading size */
