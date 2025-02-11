@@ -99,7 +99,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Centers the box */
-  width: 600px; /* Adjust width as needed */
+  width: 450px; /* Adjust width as needed */
   height: 300px;
   padding: 20px;
   background: var(--new); /* Use your theme color */
