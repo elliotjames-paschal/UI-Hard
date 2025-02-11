@@ -1,7 +1,7 @@
 /* Brand Colors */
 :root {
   --primary-color: #0D3B66;   /* Deep Nautilus blue */
-  --accent-color:  ##072139;  /* Dark accent */ 
+  --accent-color:  #072139;  /* Dark accent */ 
   --background:    #f9f9f9;
   --white:         #ffffff;
   --text-color:    #333333;
@@ -52,22 +52,24 @@ header h1 {
 /* Header Right: Connect Wallet Button */
 .header-right button {
   border: 2px solid var(--new);
+  border-bottom: 2px solid var(--accent-color);
   background: var(--new);
   color: var(#0D3B66);
-  padding: 4px 8px;   /* Reduced padding to shrink the button */
+  padding: 5px 10px;   /* Reduced padding to shrink the button */
   border-radius: 999px;  /* High value to create a pill shape */
   font-size: 1rem;   /* Smaller font size */
   font-weight: bold; /* Make font bold */
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
-  margin-right: 15px;  /* Adjust this value to move it left */
+  margin-right: 20px;  /* Adjust this value to move it left */
 }
 
 
 
 .header-right button:hover {
+  border: 2px solid var(--b-hover);
   background: var(--b-hover);
-  color: var(--primary-color);
+  color: var(--b-hover);
 }
 
 /* Main Content Styling */
@@ -122,7 +124,7 @@ section button {
 }
 
 section button:hover {
-  background: #e0c049;
+  background: var(--b-hover);
 }
 
 /* Notification Styling */
@@ -138,7 +140,7 @@ section button:hover {
 .header-extra {
   display: flex;
   align-items: center;
-  margin-left: 30px; /* Adds a little space between the company name and the extra buttons */
+  margin-left: 10px; /* Adds a little space between the company name and the extra buttons */
 }
 
 .header-extra button {
