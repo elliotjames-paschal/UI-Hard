@@ -68,7 +68,7 @@ header h1 {
   bottom: -2px; /* Slightly below the button */
   left: 50%;
   width: 80%; /* Adjust width for more/less taper */
-  height: 4px; /* Controls thickness of the effect */
+  height: 2px; /* Controls thickness of the effect */
   background: linear-gradient(to right, transparent, var(--accent-color), transparent); /* Creates the tapering effect */
   border-radius: 50%;
   transform: translateX(-75%);
@@ -78,7 +78,7 @@ header h1 {
 .header-right button:hover {
   border: 2px solid var(--b-hover);
   background: var(--b-hover);
-  color: var(--b-hover);
+  color: var(--primary-color);
 }
 
 /* Main Content Styling */
